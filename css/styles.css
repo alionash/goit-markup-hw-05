@@ -715,18 +715,18 @@ ol {
     position: absolute;
     right: 8px;
     top: 8px;
-    background-image: url(/images/close-icon.svg);
-    background-repeat: no-repeat;
-    background-size: 18px;
-    background-position: 50% 50%;
-    color: #000;
-    border: 1px solid #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     width: 30px;
     height: 30px;
+    padding: 0;
+    border: 1px solid #0000001A;
     border-radius: 50%;
 
     cursor: pointer;
+    background-color: #fff;
 
 }
 
